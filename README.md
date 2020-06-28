@@ -25,4 +25,4 @@ In our experiments, using n_samples=10000 and n_exp=1000, we found the estimated
 
 The following shows distributions of results from our experiments with a Gaussian representing the mean and std of the experiments overlayed.
 
-![Geometric pattern with fading gradient](figure/montecarlo_error_gaus.png | width = 200)
+![all experiments output](figure/montecarlo_error_gaus.png)
