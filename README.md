@@ -1,6 +1,6 @@
 ## Estimating value of $\pi$ using only equation of circle
 
-The code is provided as implementation to estimate value of $\pi$ using Monte Carlo on the following equation of circle only:
+The code is provided as implementation to estimate value of $\pi$ using Monte Carlo. The value of $\pi$ is estimated using only the following equation of circle:
 
 $ r^2 =  x^2 + y^2 $
 
@@ -23,6 +23,6 @@ $\pi = 4 \times \frac{area_{circ}}{area_{sq}} = 4 \times \frac{\pi r^2}{4r^2}$
 
 In our experiments, using n_samples=10000 and n_exp=1000, we found the estimated value of $\pi=3.1410628$
 
-The following shows distributions of results from our experiments with a Gaussian representing the mean and std of the experiments overlayed.
+The following shows distributions of results from our experiments with an overlayed Gaussian with mean and std of the experiments.
 
 ![all experiments output](figure/montecarlo_error_gaus.png)
